@@ -40,8 +40,8 @@ a:hover {
 }
 
 .bloc .container {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .bloc-lg {
@@ -280,8 +280,8 @@ a:hover {
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 #bloc-1-hero h1 {
@@ -841,8 +841,8 @@ h4 {
   .bloc-tile-2.full-width-bloc .container,
   .bloc-tile-3.full-width-bloc .container,
   .bloc-tile-4.full-width-bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -855,13 +855,13 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -879,10 +879,10 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
+  /* .bloc {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
-  }
+  } */
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -891,8 +891,8 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    /* padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right); */
   }
 }
 
@@ -981,8 +981,8 @@ h4 {
     margin-left: 10px;
   }
   .bloc {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .bloc-xxl,
   .bloc-xl,
@@ -991,16 +991,16 @@ h4 {
   }
   .bloc-sm,
   .bloc-md {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .bloc-tile-2 .container,
   .bloc-tile-3 .container,
   .bloc-tile-4 .container,
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .a-block {
     padding: 0 10px;
@@ -1023,13 +1023,13 @@ h4 {
   .close-lightbox {
     display: inline-block;
   }
-  .blocsapp-device-iphone5 {
+  .blocsapp-iphone5 {
     background-size: 216px 425px;
     padding-top: 60px;
     width: 216px;
     height: 425px;
   }
-  .blocsapp-device-iphone5 img {
+  .blocsapp-iphone5 img {
     width: 180px;
     height: 320px;
   }
@@ -1037,8 +1037,8 @@ h4 {
 
 @media (max-width: 400px) {
   .bloc {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
