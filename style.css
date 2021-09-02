@@ -101,7 +101,7 @@ a:hover {
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
 }
 
 .d-bloc button:hover {
@@ -113,11 +113,11 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-  border-color: rgba(255, 255, 255, 0.9);
+  border-color: #fff;
 }
 
 .d-bloc .divider-h span {
-  border-color: rgba(255, 255, 255, 0.589);
+  border-color: #fff;
 }
 
 .d-bloc .a-btn,
@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
 }
 
 .d-bloc .a-btn:hover,
@@ -151,17 +151,17 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 221, 198);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-  background: rgba(255, 255, 255, 1);
+  background: white;
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-  color: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 255, 255, 1);
+  color: rgb(255, 221, 198);
+  border-color: rgb(255, 221, 198);
 }
 
 .d-bloc .panel {
@@ -232,7 +232,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -250,7 +250,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 221, 198);
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -261,8 +261,8 @@ a:hover {
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-  color: rgba(255, 255, 255, 0.7);
-  border-color: rgba(255, 255, 255, 0.822);
+  color: white;
+  border-color: white;
 }
 
 .voffset {
@@ -654,7 +654,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black !important;
 }
 
 .container {
@@ -777,7 +777,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #da5f26;
+  background-color: #d85f26;
 }
 
 .tc-white {
