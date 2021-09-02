@@ -117,7 +117,7 @@ a:hover {
 }
 
 .d-bloc .divider-h span {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.589);
 }
 
 .d-bloc .a-btn,
@@ -250,7 +250,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-  color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -261,8 +261,8 @@ a:hover {
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-  color: rgba(0, 0, 0, 0.7);
-  border-color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.822);
 }
 
 .voffset {
