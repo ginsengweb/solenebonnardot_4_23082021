@@ -713,6 +713,7 @@ quote {
 h2 {
   font-size: 22px;
   line-height: 1.4em;
+  position: sticky;
 }
 
 h3 {
